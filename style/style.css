@@ -287,16 +287,16 @@ main{
     gap: 50px;
 
 }
-.connect,.form-box{
+#footer.connect,#footer .form-box{
     padding: 0 20px;
 }
-.connect>h2,.form-box>h2{
+#footer .connect>h2,#footer .form-box>h2{
     font-size: 35px;
     font-weight: 600;
     margin-bottom: 20px;
     color: rgba(24, 24, 24, 1);
 }
-.connect>p{
+#footer .connect>p{
     font-size: 1rem;
     color: rgba(71, 71, 71, 1);
     margin-bottom: 30px;

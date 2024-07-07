@@ -275,13 +275,13 @@ main{
     color: rgba(117, 117, 117, 1);
     margin-bottom: 30px;
 }
-footer{
+#footer{
     margin:130px auto 50px;
     background-color: #FFF8F3;
     min-height: 100vh;
     display: flex;
 }
-footer .footer-box{
+#footer .footer-box{
     display: flex;
     margin:130px 180px;
     gap: 50px;

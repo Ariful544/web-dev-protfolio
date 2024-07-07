@@ -236,7 +236,6 @@ main{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
 }
 #resume-summary>h1{
     text-align: center;
@@ -276,6 +275,61 @@ main{
     color: rgba(117, 117, 117, 1);
     margin-bottom: 30px;
 }
-#resume-summary .works{
-   
+footer{
+    margin:130px auto 50px;
+    background-color: #FFF8F3;
+    min-height: 100vh;
+    display: flex;
+}
+footer .footer-box{
+    display: flex;
+    margin:130px 180px;
+    gap: 50px;
+
+}
+.connect,.form-box{
+    padding: 0 20px;
+}
+.connect>h2,.form-box>h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgba(24, 24, 24, 1);
+}
+.connect>p{
+    font-size: 1rem;
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 24px;
+    color:#FD6E0A;
+    margin-right: 20px;
+}
+.form-box>form{
+    display: flex;
+    flex-direction: column;
+}
+.footer-box>h2{
+ text-align: center;
+}
+.footer-box input[type="text"],.footer-box input[type="text"]{
+    display: block;
+    width: 460px;
+    height: 64px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+}
+.footer-box textarea{
+    display: block;
+    width: 460px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.footer-box textarea:focus,.footer-box input:focus{
+    outline: none;
 }

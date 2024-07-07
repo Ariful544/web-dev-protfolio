@@ -260,13 +260,13 @@ main{
     margin: 30px 0;
 }
 .educational-institute>h3,.work-experience>h3{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     color: rgba(71, 71, 71, 1);
     margin-bottom: 10px;
 }
 .educational-institute>h6,.work-experience>h6{
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
     color:rgba(117, 117, 117, 1);
     margin-bottom: 20px;
